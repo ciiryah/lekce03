@@ -23,13 +23,15 @@
 /* ---------------------------------------------------- */
 .kontejner {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .ctverecek {
     flex-grow: 1;
-    flex-basis: 500px;
+    /*flex-basis: 500px;*/
+  
 }
 
 .treti {
-    flex-shrink: 2;
-    order: 1;}
+    flex-grow: 2;
+}
