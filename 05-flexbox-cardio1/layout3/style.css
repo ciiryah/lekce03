@@ -13,10 +13,28 @@ aside {
 
 nav {
 	background: lightsteelblue;
+	width: 20%;
 }
 
 /* -------------------------------------------- */
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
 
+.main {
+	display: flex;
+	height: 600px;
+}
 
+.secondary {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+}
+
+header, footer {
+	height: 150px;
+}
+
+article {
+	height: 300px;
+}

@@ -19,4 +19,25 @@ nav {
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
 
+.main, .secondary, .tertiary, .quarterly {
+	display: flex;
+}
+
+nav {
+	width: 20%;
+}
+
+.secondary {
+	flex-direction: column;
+	width: 80%;
+}
+
+.tertiary {
+	width: 80%;
+}
+
+.quarterly {
+	flex-direction: column;
+}
+
 
